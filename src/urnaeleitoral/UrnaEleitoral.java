@@ -12,6 +12,7 @@ public class UrnaEleitoral {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
+        
         int totalVotos = 0;
         int votosCandidato1 = 0;
         int votosCandidato2 = 0;
@@ -20,14 +21,20 @@ public class UrnaEleitoral {
         int senha = 2024;
 
         System.out.println(" ESCOLHA A SUA CHAPA");
+        
         System.out.println("===================");
-
+        
+             
         while (true) {
 
             System.out.println("1. Candidato 1");
+            
             System.out.println("2. Candidato 2");
+            
             System.out.println("3. Candidato 3");
+            
             System.out.println("0. Nulo 0");
+            
             System.out.println("Para Encerrar digete a senha: ");
 
             int escolha = scanner.nextInt();
