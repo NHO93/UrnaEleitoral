@@ -15,6 +15,8 @@ public class UrnaEleitoral {
 
     String senha = JOptionPane.showInputDialog(null, "Digite a senha e NÃO ESQUEÇA");
 
+    while (senha.length()<= 0){ senha = JOptionPane.showInputDialog(null, "Digite a Senha OBRIGATÓRIA e NÂO ESQUEÇA");}
+   
     while (true) {
         String input = JOptionPane.showInputDialog(null,
                 "Escolha um canditado:\n\n1. Candidato 1\n2. Candidato 2\n3. Candidato 3\n0. Voto nulo\n Insira a senha para encerrar a votação");
