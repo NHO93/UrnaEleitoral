@@ -17,7 +17,7 @@ Consulte o arquivo [LICENSE](LICENSE) para obter direitos e limitações de lice
    - Duas variáveis booleanas, `votacaoIniciada` e `votacaoEncerrada`, são usadas para controlar o estado da votação.
 
 2. **Loop Principal**:
-   - O código entra em um loop while que permite ao programa continuar executando até que o usuário escolha sair (opção "0").
+   - O código entra em um loop `while` que permite ao programa continuar executando até que o usuário escolha sair (opção "0").
 
 3. **Opções do Menu**:
    - O programa exibe um menu com várias opções, que são:
