@@ -2,7 +2,10 @@
 
 SOBRE: Primeiro programa que criei após alguns meses de estudos.
 
-Claro, vou explicar o código em etapas:
+# Lisença
+Consulte o arquivo LICENSE para obter direitos e limitações de licença (MIT).
+
+# Código em etapas:
 
 1. **Configuração Inicial e Variáveis**:
    - O código começa importando as classes necessárias do pacote `javax.swing`, que são usadas para criar interfaces gráficas em Java.
