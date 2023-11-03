@@ -3,7 +3,7 @@
 SOBRE: Primeiro programa que criei após alguns meses de estudos.
 
 # Lisença
-Consulte o arquivo LICENSE para obter direitos e limitações de licença (MIT).
+Consulte o arquivo [LICENSE](LICENSE.md) para obter direitos e limitações de licença (MIT).
 
 # Código em etapas:
 
