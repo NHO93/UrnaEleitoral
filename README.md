@@ -1,12 +1,16 @@
 # UrnaEleitoral
-
-SOBRE: Primeiro programa que criei após alguns meses de estudos.
-
+---
+| Sobre | Lingaguem |
+| ------------- | ------------- |
+|Primeiro programa que criei após alguns meses de estudos|
+|O código permite que o mesário registre seu nome, inicie e encerre a votação com senhas, registre votos e, após o encerramento, exiba os resultados| JAVA |
+|É importante observar que este código é simplificado e não lida com muitas das complexidades do processo eleitoral do mundo real, mas serve como um exemplo básico de como implementar um sistema de votação|
+---
 # Lisença
 Consulte o arquivo [LICENSE](LICENSE) para obter direitos e limitações de licença (MIT).
 
 # Código em etapas:
-
+---
 1. **Configuração Inicial e Variáveis**:
    - O código começa importando as classes necessárias do pacote `javax.swing`, que são usadas para criar interfaces gráficas em Java.
    - Em seguida, o código define variáveis para controlar o total de votos, os votos para cada candidato, votos nulos e variáveis de senha para encerrar a votação e exibir o resultado. Também é definido um array de `String` chamado `candidatos` para armazenar os nomes dos candidatos.
@@ -32,5 +36,3 @@ Consulte o arquivo [LICENSE](LICENSE) para obter direitos e limitações de lice
 
 6. **Restrições**:
    - O código verifica se as ações do usuário são válidas, com base no estado da votação e nas opções escolhidas. Se uma ação não for válida, o código exibe uma mensagem de erro.
-
-No geral, o código permite que um mesário registre seu nome, inicie e encerre a votação com senhas, registre votos e, após o encerramento, exiba os resultados. É importante observar que este código é simplificado e não lida com muitas das complexidades do processo eleitoral do mundo real, mas serve como um exemplo básico de como implementar um sistema de votação simples em Java.
