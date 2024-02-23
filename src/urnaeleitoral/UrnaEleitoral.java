@@ -7,24 +7,30 @@ import java.util.Map;
 public class UrnaEleitoral {
 
     public static void main(String[] args) {
+        //Dados relacionados a votação e armazenamento das variaveis 
         int totalVotos = 0;
         int votosCandidato1 = 0;
         int votosCandidato2 = 0;
         int votosCandidato3 = 0;
         int nulo = 0;
 
+        //Solicitações de senha e encerramento
         String senhaEncerrar = JOptionPane.showInputDialog(null, "Digite a senha para encerrar a votação:");
         String senhaResultado = JOptionPane.showInputDialog(null, "Digite a senha para exibir o resultado:");
 
+        //delaração contendo os nomes dos candidatos
         String[] candidatos = {"Candidato 1", "Candidato 2", "Candidato 3"};
 
+        //controle de verificação se a votação foi iniciada ou encerrada
         boolean votacaoIniciada = false;
         boolean votacaoEncerrada = false;
 
         while (true) {
+            //solicitação de entrada de usuario e escolha das opções disponíveis
             String input = JOptionPane.showInputDialog(null,
                     "Opções:\n\n1. Registrar mesário\n2. Iniciar votação\n3. Encerrar votação\n4. Votar\n5. Exibir resultado\n0. Sair\n");
 
+            //condicionais que verificam a escolha do usuário e executa conforme a escolha
             if (input.equals("1")) {
                 String nomeMesario = JOptionPane.showInputDialog(null, "Nome do Mesário:");
                 JOptionPane.showMessageDialog(null, "Mesário registrado com sucesso.");
